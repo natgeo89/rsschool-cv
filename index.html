@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Viktar Sakharuk CV</title>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;900&display=swap" rel="stylesheet">
+        
+        <style>
+            body {
+                padding: 0;
+                margin: 0;
+                background-color: #9cc1df;
+                
+                
+            }
+            .container {
+                width: 700px;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                box-sizing: border-box;
+                background-color: #d0d0d0 ;
+
+                font-family: 'Mulish', sans-serif;
+            }
+
+            .uppercase {
+                text-transform: uppercase;
+            }
+         
+
+            .header{
+                flex: 1;
+
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background-color: #ff9800c7;
+
+            }
+
+            #name {                
+                width:190px;
+                text-align: end;    
+                border-right: 4px solid black;
+                padding-right: 10px;            
+            }
+
+            #photo {
+                
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                border: 4px solid black;
+                position: relative;
+                top: 70px;
+            }
+
+
+            .content-cv {
+                flex: 6;
+                padding-left: 30px;
+
+                display: flex;
+                flex-direction: column;
+            }
+
+            .footer {
+                flex: 1;
+
+                background-color: #ff9800c7;
+                padding-left: 30px;                
+
+            }
+
+            a {
+                font-weight: 900;
+                color: black;
+            }
+
+           
+
+        </style>
+    </head>
+
+    <body>
+        <div class = 'container'>
+
+            <header class = 'header'>
+                
+                <h1 id='name'>viktar <span class='uppercase'>Sakharuk</span></h1>
+                <img src='photo.jpg' id='photo' alt='my photo'>                
+                
+            </header>
+
+            <main class='content-cv'>
+                <section class = 'about-me'>            
+                    <h2>About me</h2>
+                   
+                    <p>I like to learn JavaScript. I'm going to finish <a href='https://rs.school/'>RS School</a> and at least receive certificate.
+                    I'm ready to work overtime.
+                    </p>             
+                                             
+                </section>
+
+                <section class="skills">
+                    <h2>Skills</h2>
+                    
+                    <p>◾◾◾◽◽ HTML</p>
+                    <p>◾◾◽◽◽ CSS</p>
+                    <p>◾◾◽◽◽ JavaScript</p>
+                    <p>◾◾◽◽◽ Git</p>
+                    <p>◾◾◾◽◽ QA</p>                   
+                    
+                    
+                </section>
+
+                <section class ='education'>
+                    <h2>Education</h2>
+
+                    <p>Brest State Technical University (2010-2015).
+                        <br>
+                        Specialization: civil engineering
+                    </p>
+
+                    <p>Epam training center (08.2019 - 11.2019)
+                        <br>
+                        Software Testing Introduction
+                    </p>
+                </section>
+             
+
+                <section class = 'english-level'>
+                    <h2>English level</h2>
+                    <p>A2 (Pre-Intermediate)</p>
+                </section>
+            </main>
+            
+            <footer class = 'footer'>
+                <section class = 'contacts'>
+
+                <h2>Contact me:</h2>                
+                <p><img src = 'email.svg' alt='e-mail icon'  height='20px'> natgeogr93@gmail.com</p>   
+                <p><img src = 'discord.svg' alt='discord icon'height ='20px'> Viktar Sakharuk (@natgeo89)</p>
+
+                </section>
+            </footer>
+        </div>
+    </body>
+</html>
